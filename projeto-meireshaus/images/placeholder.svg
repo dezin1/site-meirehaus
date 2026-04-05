@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-  <rect width="800" height="600" fill="#EBF5FB"/>
-  <rect x="280" y="180" width="240" height="180" rx="16" fill="#2980B9" opacity="0.15"/>
-  <circle cx="340" cy="260" r="30" fill="#2980B9" opacity="0.25"/>
-  <rect x="310" y="310" width="180" height="16" rx="8" fill="#2980B9" opacity="0.2"/>
-  <rect x="340" y="340" width="120" height="12" rx="6" fill="#2980B9" opacity="0.15"/>
-  <text x="400" y="420" font-family="system-ui,sans-serif" font-size="14" fill="#2980B9" opacity="0.5" text-anchor="middle">Substitua por imagem real</text>
-</svg>
