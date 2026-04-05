@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Meireshaus Casa de Repouso — Cuidado, acolhimento e qualidade de vida para idosos. Equipe qualificada, estrutura moderna e ambiente familiar. Agende uma visita.">
+  <meta name="keywords" content="casa de repouso, lar de idosos, cuidado de idosos, assistência 24h, Meireshaus, idosos SP">
+  <meta name="author" content="Meireshaus Casa de Repouso">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.meireshaus.com.br/">
+
+  <!-- Open Graph (WhatsApp / Facebook preview) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Meireshaus — Casa de Repouso | Cuidado e Acolhimento">
+  <meta property="og:description" content="Cuidado, acolhimento e qualidade de vida para quem mais importa. Conheça a Meireshaus.">
+  <meta property="og:url" content="https://www.meireshaus.com.br/">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <title>Meireshaus — Casa de Repouso | Cuidado e Acolhimento para Idosos</title>
+
+  <!-- Google Fonts: Nunito (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER — Logo + Navegação + CTA
+  ============================================================ -->
+  <header id="header" class="header">
+    <div class="container header__inner">
+
+      <!-- Logo -->
+      <a href="#home" class="header__logo" aria-label="Meireshaus — Página inicial">
+        <div class="logo-icon">
+          <i class="fas fa-heart" aria-hidden="true"></i>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Meireshaus</span>
+          <span class="logo-tagline">Casa de Repouso</span>
+        </div>
+      </a>
+
+      <!-- Navegação principal -->
+      <nav class="header__nav" id="mainNav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#home"       class="nav__link active">Home</a></li>
+          <li><a href="#sobre"      class="nav__link">Sobre</a></li>
+          <li><a href="#estrutura"  class="nav__link">Estrutura</a></li>
+          <li><a href="#servicos"   class="nav__link">Serviços</a></li>
+          <li><a href="#galeria"    class="nav__link">Galeria</a></li>
+          <li><a href="#contato"    class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão CTA — Agendar Visita -->
+      <!--
+        SUBSTITUA o número: 5511999999999 → DDI + DDD + número sem símbolos
+        Exemplo: 55 (Brasil) + 11 (SP) + 99999-9999 → 5511999999999
+      -->
+      <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20à%20Meireshaus."
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn btn-primary header__cta">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        Agendar Visita
+      </a>
+
+      <!-- Botão hambúrguer (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO — Primeira dobra
+    ============================================================ -->
+    <section id="home" class="hero" aria-label="Apresentação da Meireshaus">
+      <!-- Fundo: substitua por imagem real adicionando background-image no CSS
+           ou em linha: style="background-image: url('images/hero.jpg')" -->
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <!-- Texto principal -->
+        <div class="hero__text">
+          <span class="hero__badge">
+            <i class="fas fa-award" aria-hidden="true"></i>
+            Mais de 10 anos cuidando com amor
+          </span>
+
+          <h1 class="hero__title">
+            Cuidado, acolhimento e qualidade de vida para quem mais importa.
+          </h1>
+
+          <p class="hero__subtitle">
+            Na Meireshaus, cada residente é tratado com carinho, respeito e atenção individualizada.
+            Oferecemos um lar seguro, confortável e cheio de vida para seus familiares.
+          </p>
+
+          <div class="hero__actions">
+            <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Meireshaus."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-whatsapp btn-lg">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+              Falar no WhatsApp
+            </a>
+            <a href="#sobre" class="btn btn-outline-white btn-lg">
+              Conheça nossa história
+            </a>
+          </div>
+
+          <!-- Estatísticas rápidas -->
+          <div class="hero__stats" aria-label="Destaques da Meireshaus">
+            <div class="hero__stat">
+              <strong>10+</strong>
+              <span>Anos de experiência</span>
+            </div>
+            <div class="hero__stat">
+              <strong>100+</strong>
+              <span>Famílias atendidas</span>
+            </div>
+            <div class="hero__stat">
+              <strong>24h</strong>
+              <span>Assistência completa</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Imagem / card visual -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__image-wrap">
+            <!-- Substitua hero.jpg pela foto real da casa -->
+            <img src="images/hero.jpg"
+                 alt="Ambiente acolhedor da Meireshaus Casa de Repouso"
+                 class="hero__img"
+                 loading="eager"
+                 onerror="this.parentElement.querySelector('.hero__img-placeholder').style.display='flex'; this.style.display='none'">
+            <div class="hero__img-placeholder">
+              <i class="fas fa-home" aria-hidden="true"></i>
+              <span>Meireshaus</span>
+            </div>
+          </div>
+          <!-- Cards flutuantes decorativos -->
+          <div class="hero__float-card hero__float-card--1">
+            <i class="fas fa-shield-heart" aria-hidden="true"></i>
+            <span>Ambiente seguro e acolhedor</span>
+          </div>
+          <div class="hero__float-card hero__float-card--2">
+            <i class="fas fa-user-nurse" aria-hidden="true"></i>
+            <span>Equipe especializada 24h</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Curva decorativa de transição -->
+      <div class="hero__wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="var(--bg-alt)"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SOBRE — Bloco institucional
+    ============================================================ -->
+    <section id="sobre" class="about section">
+      <div class="container">
+        <div class="about__grid">
+
+          <!-- Coluna imagem -->
+          <div class="about__media fade-in-left">
+            <div class="about__img-wrap">
+              <img src="images/about.jpg"
+                   alt="Cuidadora da Meireshaus junto a residente sorridente"
+                   class="about__img"
+                   loading="lazy"
+                   onerror="this.parentElement.querySelector('.about__img-placeholder').style.display='flex'; this.style.display='none'">
+              <div class="about__img-placeholder">
+                <i class="fas fa-hands-holding-heart" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="about__badge">
+              <i class="fas fa-award" aria-hidden="true"></i>
+              <div>
+                <strong>Cuidado humanizado</strong>
+                <span>Desde 2014 cuidando de vidas</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna texto -->
+          <div class="about__content fade-in-right">
+            <span class="section-tag">Sobre nós</span>
+            <h2 class="section-title">Um lar com o calor de família</h2>
+            <p class="about__lead">
+              A Meireshaus nasceu do sonho de oferecer um espaço onde os idosos vivam com
+              dignidade, alegria e bem-estar — cercados de cuidado genuíno.
+            </p>
+            <p class="about__text">
+              Com mais de uma década de experiência, nossa equipe multidisciplinar é treinada para
+              oferecer assistência integral: dos cuidados básicos de saúde às atividades que
+              estimulam a mente e o coração de cada residente.
+            </p>
+
+            <div class="about__values">
+              <div class="about__value">
+                <div class="about__value-icon">
+                  <i class="fas fa-heart" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3>Amor e dedicação</h3>
+                  <p>Cada residente é tratado como membro da família.</p>
+                </div>
+              </div>
+              <div class="about__value">
+                <div class="about__value-icon">
+                  <i class="fas fa-user-doctor" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3>Equipe qualificada</h3>
+                  <p>Profissionais de saúde capacitados e comprometidos.</p>
+                </div>
+              </div>
+              <div class="about__value">
+                <div class="about__value-icon">
+                  <i class="fas fa-leaf" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3>Ambiente acolhedor</h3>
+                  <p>Espaços pensados para conforto, segurança e bem-estar.</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contato" class="btn btn-primary">
+              Agendar visita
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ESTRUTURA — Cards com diferenciais
+    ============================================================ -->
+    <section id="estrutura" class="structure section section--alt">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Nossa estrutura</span>
+          <h2 class="section-title">Um ambiente pensado para o bem-estar</h2>
+          <p class="section-desc">
+            Cada detalhe da Meireshaus foi projetado para proporcionar conforto, segurança e qualidade de vida.
+          </p>
+        </div>
+
+        <div class="structure__grid">
+
+          <article class="structure__card fade-in">
+            <div class="structure__icon" aria-hidden="true">
+              <i class="fas fa-bed"></i>
+            </div>
+            <h3>Quartos Confortáveis</h3>
+            <p>Quartos individuais e compartilhados, climatizados, com camas hospitalares e decoração acolhedora.</p>
+          </article>
+
+          <article class="structure__card fade-in">
+            <div class="structure__icon" aria-hidden="true">
+              <i class="fas fa-people-group"></i>
+            </div>
+            <h3>Área de Convivência</h3>
+            <p>Espaços amplos para socialização, com TV, jogos, leitura e atividades em grupo diariamente.</p>
+          </article>
+
+          <article class="structure__card fade-in">
+            <div class="structure__icon" aria-hidden="true">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3>Alimentação Supervisionada</h3>
+            <p>Cardápio balanceado elaborado por nutricionista, adaptado às necessidades de cada residente.</p>
+          </article>
+
+          <article class="structure__card fade-in">
+            <div class="structure__icon" aria-hidden="true">
+              <i class="fas fa-stethoscope"></i>
+            </div>
+            <h3>Acompanhamento Profissional</h3>
+            <p>Médicos, enfermeiros e fisioterapeutas disponíveis para garantir saúde e qualidade de vida.</p>
+          </article>
+
+          <article class="structure__card fade-in">
+            <div class="structure__icon" aria-hidden="true">
+              <i class="fas fa-shield-halved"></i>
+            </div>
+            <h3>Segurança 24 Horas</h3>
+            <p>Monitoramento constante, câmeras e equipe de plantão durante toda a noite para sua tranquilidade.</p>
+          </article>
+
+          <article class="structure__card fade-in">
+            <div class="structure__icon" aria-hidden="true">
+              <i class="fas fa-tree"></i>
+            </div>
+            <h3>Área Verde e Jardim</h3>
+            <p>Jardim tranquilo para caminhadas, contato com a natureza e momentos de relaxamento ao ar livre.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVIÇOS — Lista em grid
+    ============================================================ -->
+    <section id="servicos" class="services section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">O que oferecemos</span>
+          <h2 class="section-title">Serviços completos para sua tranquilidade</h2>
+          <p class="section-desc">Cuidamos de tudo para que você e sua família tenham paz de espírito.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <div class="services__item fade-in">
+            <div class="services__icon" aria-hidden="true"><i class="fas fa-clock"></i></div>
+            <div class="services__body">
+              <h3>Assistência 24 horas</h3>
+              <p>Equipe disponível a qualquer hora do dia ou da noite para qualquer necessidade.</p>
+            </div>
+          </div>
+
+          <div class="services__item fade-in">
+            <div class="services__icon" aria-hidden="true"><i class="fas fa-pills"></i></div>
+            <div class="services__body">
+              <h3>Administração de medicamentos</h3>
+              <p>Controle rigoroso e administração correta de todos os medicamentos prescritos.</p>
+            </div>
+          </div>
+
+          <div class="services__item fade-in">
+            <div class="services__icon" aria-hidden="true"><i class="fas fa-apple-whole"></i></div>
+            <div class="services__body">
+              <h3>Alimentação balanceada</h3>
+              <p>Refeições nutritivas com dietas especiais conforme necessidade médica individual.</p>
+            </div>
+          </div>
+
+          <div class="services__item fade-in">
+            <div class="services__icon" aria-hidden="true"><i class="fas fa-puzzle-piece"></i></div>
+            <div class="services__body">
+              <h3>Atividades recreativas</h3>
+              <p>Programação diária com jogos, música, artesanato e atividades para o bem-estar.</p>
+            </div>
+          </div>
+
+          <div class="services__item fade-in">
+            <div class="services__icon" aria-hidden="true"><i class="fas fa-heartbeat"></i></div>
+            <div class="services__body">
+              <h3>Monitoramento contínuo</h3>
+              <p>Acompanhamento constante dos sinais vitais e do estado de saúde de cada residente.</p>
+            </div>
+          </div>
+
+          <div class="services__item fade-in">
+            <div class="services__icon" aria-hidden="true"><i class="fas fa-person-walking"></i></div>
+            <div class="services__body">
+              <h3>Fisioterapia</h3>
+              <p>Sessões regulares para manutenção da mobilidade, força e qualidade de vida.</p>
+            </div>
+          </div>
+
+          <div class="services__item fade-in">
+            <div class="services__icon" aria-hidden="true"><i class="fas fa-comments"></i></div>
+            <div class="services__body">
+              <h3>Apoio psicológico</h3>
+              <p>Suporte emocional para residentes e familiares durante toda a jornada de cuidado.</p>
+            </div>
+          </div>
+
+          <div class="services__item fade-in">
+            <div class="services__icon" aria-hidden="true"><i class="fas fa-car"></i></div>
+            <div class="services__body">
+              <h3>Transporte para consultas</h3>
+              <p>Acompanhamento e transporte para consultas médicas e exames quando necessário.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         GALERIA — Feed do Instagram (via API ou mock)
+    ============================================================ -->
+    <section id="galeria" class="gallery section section--alt">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Nossa galeria</span>
+          <h2 class="section-title">Momentos especiais da Meireshaus</h2>
+          <p class="section-desc">
+            Acompanhe o nosso dia a dia e veja como é a vida aqui dentro.
+          </p>
+          <!--
+            SUBSTITUA o handle pelo Instagram real:
+            href="https://instagram.com/SEU_PERFIL"
+          -->
+          <a href="https://instagram.com/meires_haus"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="instagram-handle">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            @meires_haus
+          </a>
+        </div>
+
+        <!-- Estado de carregamento -->
+        <div id="galleryLoading" class="gallery__loading" role="status" aria-live="polite">
+          <div class="spinner" aria-hidden="true"></div>
+          <p>Carregando fotos...</p>
+        </div>
+
+        <!-- Grid das fotos — preenchido pelo instagram.js -->
+        <div id="instagramGallery"
+             class="gallery__grid"
+             aria-label="Galeria de fotos da Meireshaus">
+        </div>
+
+        <!-- Estado de erro (exibido se API falhar e mock estiver desativado) -->
+        <div id="galleryError" class="gallery__error" style="display:none" role="alert">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+          <p>Siga-nos no Instagram para ver mais!</p>
+          <a href="https://instagram.com/meires_haus"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="btn btn-primary">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            Ver perfil no Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DEPOIMENTOS — Cards de avaliação
+    ============================================================ -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Depoimentos</span>
+          <h2 class="section-title">O que as famílias dizem</h2>
+          <p class="section-desc">A confiança de quem já vivenciou o cuidado da Meireshaus é a nossa maior recompensa.</p>
+        </div>
+
+        <div class="testimonials__grid">
+
+          <article class="testimonial__card fade-in" aria-label="Depoimento de Maria Silva">
+            <div class="testimonial__stars" aria-label="5 de 5 estrelas">
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote>
+              <p>"Minha mãe está na Meireshaus há 2 anos e só tenho gratidão. A equipe é incrível, carinhosa e sempre nos mantém informados sobre tudo. Ela é muito feliz lá."</p>
+            </blockquote>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar" aria-hidden="true">
+                <i class="fas fa-user"></i>
+              </div>
+              <div>
+                <strong>Maria Silva</strong>
+                <span>Filha de residente</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial__card fade-in" aria-label="Depoimento de Carlos Mendes">
+            <div class="testimonial__stars" aria-label="5 de 5 estrelas">
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote>
+              <p>"Quando precisei de um lugar para meu pai, a Meireshaus me passou confiança desde o primeiro contato. A estrutura é excelente e o atendimento, humanizado."</p>
+            </blockquote>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar" aria-hidden="true">
+                <i class="fas fa-user"></i>
+              </div>
+              <div>
+                <strong>Carlos Mendes</strong>
+                <span>Filho de residente</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial__card fade-in" aria-label="Depoimento de Ana Luiza Costa">
+            <div class="testimonial__stars" aria-label="5 de 5 estrelas">
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote>
+              <p>"As refeições, os cuidados médicos e as atividades recreativas fazem diferença no humor e na saúde da minha avó. Equipe nota 10. Recomendo muito!"</p>
+            </blockquote>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar" aria-hidden="true">
+                <i class="fas fa-user"></i>
+              </div>
+              <div>
+                <strong>Ana Luiza Costa</strong>
+                <span>Neta de residente</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         LOCALIZAÇÃO — Mapa + Informações de contato
+    ============================================================ -->
+    <section id="localizacao" class="location section section--alt">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Onde estamos</span>
+          <h2 class="section-title">Venha nos conhecer</h2>
+          <p class="section-desc">Agende uma visita e conheça de perto a estrutura e o carinho da Meireshaus.</p>
+        </div>
+
+        <div class="location__grid">
+
+          <!-- Informações de contato -->
+          <address class="location__info fade-in-left">
+
+            <div class="location__item">
+              <div class="location__icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h3>Endereço</h3>
+                <!-- SUBSTITUA pelo endereço real -->
+                <p>Rua Exemplo, 123 — Bairro<br>Cidade — Estado, CEP 00000-000</p>
+              </div>
+            </div>
+
+            <div class="location__item">
+              <div class="location__icon" aria-hidden="true"><i class="fas fa-phone"></i></div>
+              <div>
+                <h3>Telefone</h3>
+                <p><a href="tel:+5511999999999">(11) 99999-9999</a></p>
+              </div>
+            </div>
+
+            <div class="location__item">
+              <div class="location__icon" aria-hidden="true"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <h3>WhatsApp</h3>
+                <p>
+                  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                    (11) 99999-9999
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="location__item">
+              <div class="location__icon" aria-hidden="true"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h3>E-mail</h3>
+                <!-- SUBSTITUA pelo e-mail real -->
+                <p><a href="mailto:contato@meireshaus.com.br">contato@meireshaus.com.br</a></p>
+              </div>
+            </div>
+
+            <div class="location__item">
+              <div class="location__icon" aria-hidden="true"><i class="fas fa-clock"></i></div>
+              <div>
+                <h3>Horário de visitas</h3>
+                <p>Segunda a Sábado<br>9h às 11h | 14h às 17h</p>
+              </div>
+            </div>
+
+            <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20à%20Meireshaus."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-whatsapp btn-block">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+              Agendar visita pelo WhatsApp
+            </a>
+
+          </address>
+
+          <!-- Google Maps embed -->
+          <div class="location__map fade-in-right">
+            <!--
+              COMO ADICIONAR SEU MAPA:
+              1. Acesse maps.google.com
+              2. Pesquise seu endereço
+              3. Clique em "Compartilhar" → "Incorporar um mapa"
+              4. Copie o <iframe> e cole aqui, substituindo o placeholder abaixo
+
+              EXEMPLO (descomente e substitua o src):
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!SEU_EMBED_AQUI"
+                width="100%"
+                height="420"
+                style="border:0; border-radius:16px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Localização da Meireshaus">
+              </iframe>
+            -->
+            <div class="map-placeholder" role="img" aria-label="Mapa de localização — a ser configurado">
+              <i class="fas fa-map-location-dot" aria-hidden="true"></i>
+              <p>Mapa de localização</p>
+              <small>Substitua pelo embed do Google Maps</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTATO — Formulário + WhatsApp
+    ============================================================ -->
+    <section id="contato" class="contact section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Fale conosco</span>
+          <h2 class="section-title">Entre em contato</h2>
+          <p class="section-desc">
+            Tire suas dúvidas, agende uma visita ou solicite informações. Estamos aqui para ajudar.
+          </p>
+        </div>
+
+        <div class="contact__grid">
+
+          <!-- Formulário -->
+          <div class="contact__form-wrap fade-in-left">
+            <form id="contactForm" class="contact__form" novalidate>
+
+              <div class="form-group">
+                <label for="contactName">Nome completo <span class="required" aria-hidden="true">*</span></label>
+                <input type="text"
+                       id="contactName"
+                       name="name"
+                       placeholder="Seu nome completo"
+                       required
+                       autocomplete="name">
+                <span class="form-error" id="nameError" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactPhone">Telefone / WhatsApp <span class="required" aria-hidden="true">*</span></label>
+                <input type="tel"
+                       id="contactPhone"
+                       name="phone"
+                       placeholder="(00) 00000-0000"
+                       required
+                       autocomplete="tel">
+                <span class="form-error" id="phoneError" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">E-mail</label>
+                <input type="email"
+                       id="contactEmail"
+                       name="email"
+                       placeholder="seu@email.com"
+                       autocomplete="email">
+                <span class="form-error" id="emailError" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Mensagem <span class="required" aria-hidden="true">*</span></label>
+                <textarea id="contactMessage"
+                          name="message"
+                          rows="5"
+                          placeholder="Como podemos ajudar?"
+                          required></textarea>
+                <span class="form-error" id="messageError" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                Enviar Mensagem
+              </button>
+
+              <div id="formSuccess" class="form-success" style="display:none" role="alert" aria-live="polite">
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                Mensagem enviada! Em breve entraremos em contato.
+              </div>
+
+            </form>
+          </div>
+
+          <!-- Bloco WhatsApp -->
+          <div class="contact__whatsapp fade-in-right">
+            <div class="contact__wa-card">
+              <div class="contact__wa-icon" aria-hidden="true">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <h3>Prefere falar pelo WhatsApp?</h3>
+              <p>Nossa equipe está pronta para atender você agora mesmo. Clique abaixo e inicie a conversa.</p>
+              <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20a%20Meireshaus."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="btn btn-whatsapp btn-lg btn-block">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                Iniciar conversa agora
+              </a>
+              <div class="contact__social">
+                <p>Siga-nos nas redes sociais:</p>
+                <div class="social-links">
+                  <a href="https://instagram.com/meires_haus"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Instagram da Meireshaus">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://facebook.com/meireshaus"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Facebook da Meireshaus">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" aria-label="Rodapé">
+    <div class="container">
+      <div class="footer__grid">
+
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="#home" class="footer__logo" aria-label="Meireshaus">
+            <div class="logo-icon logo-icon--light" aria-hidden="true">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">Meireshaus</span>
+              <span class="logo-tagline">Casa de Repouso</span>
+            </div>
+          </a>
+          <p class="footer__desc">
+            Cuidado, acolhimento e qualidade de vida para quem mais importa.
+            Estamos aqui para ser o lar que seu familiar merece.
+          </p>
+          <div class="footer__social" aria-label="Redes sociais">
+            <a href="https://instagram.com/meires_haus" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://facebook.com/meireshaus" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            </a>
+            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Links rápidos -->
+        <nav class="footer__links" aria-label="Links rápidos">
+          <h4>Links rápidos</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#estrutura">Estrutura</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <!-- Serviços -->
+        <nav class="footer__services" aria-label="Nossos serviços">
+          <h4>Nossos serviços</h4>
+          <ul>
+            <li><a href="#servicos">Assistência 24 horas</a></li>
+            <li><a href="#servicos">Administração de medicamentos</a></li>
+            <li><a href="#servicos">Alimentação balanceada</a></li>
+            <li><a href="#servicos">Fisioterapia</a></li>
+            <li><a href="#servicos">Atividades recreativas</a></li>
+            <li><a href="#servicos">Apoio psicológico</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contato rodapé -->
+        <address class="footer__contact">
+          <h4>Contato</h4>
+          <div class="footer__contact-item">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <!-- SUBSTITUA pelo endereço real -->
+            <span>Rua Exemplo, 123 — Bairro<br>Cidade — Estado</span>
+          </div>
+          <div class="footer__contact-item">
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            <a href="tel:+5511999999999">(11) 99999-9999</a>
+          </div>
+          <div class="footer__contact-item">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:contato@meireshaus.com.br">contato@meireshaus.com.br</a>
+          </div>
+          <div class="footer__contact-item">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span>Visitas: Seg–Sáb, 9h–11h e 14h–17h</span>
+          </div>
+        </address>
+
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2024 Meireshaus Casa de Repouso. Todos os direitos reservados.</p>
+        <p>Desenvolvido com <i class="fas fa-heart" aria-hidden="true" style="color:#e74c3c"></i> para cuidar de quem importa.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       BOTÃO FLUTUANTE — WhatsApp
+       Sempre visível no canto inferior direito
+  ============================================================ -->
+  <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20informações%20sobre%20a%20Meireshaus."
+     target="_blank"
+     rel="noopener noreferrer"
+     class="whatsapp-float"
+     aria-label="Falar no WhatsApp com a Meireshaus">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    <span class="whatsapp-float__tooltip">Falar no WhatsApp</span>
+  </a>
+
+  <!-- ============================================================
+       LIGHTBOX — Modal para visualização de imagens da galeria
+  ============================================================ -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Visualização de imagem" style="display:none">
+    <div class="lightbox__overlay" id="lightboxOverlay"></div>
+    <div class="lightbox__content">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Fechar imagem">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+      <button class="lightbox__prev" id="lightboxPrev" aria-label="Imagem anterior">
+        <i class="fas fa-chevron-left" aria-hidden="true"></i>
+      </button>
+      <img src="" alt="" id="lightboxImg" class="lightbox__img">
+      <button class="lightbox__next" id="lightboxNext" aria-label="Próxima imagem">
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      </button>
+      <p id="lightboxCaption" class="lightbox__caption"></p>
+    </div>
+  </div>
+
+  <!-- Scripts (carregados no final para não bloquear renderização) -->
+  <script src="js/instagram.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
